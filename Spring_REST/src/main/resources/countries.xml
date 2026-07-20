@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="country1" class="com.cognizant.rest.model.Country">
+        <constructor-arg value="US"/>
+        <constructor-arg value="United States"/>
+        <constructor-arg value="331000000"/>
+    </bean>
+
+    <bean id="country2" class="com.cognizant.rest.model.Country">
+        <constructor-arg value="IN"/>
+        <constructor-arg value="India"/>
+        <constructor-arg value="1380000000"/>
+    </bean>
+
+    <bean id="country3" class="com.cognizant.rest.model.Country">
+        <constructor-arg value="CN"/>
+        <constructor-arg value="China"/>
+        <constructor-arg value="1440000000"/>
+    </bean>
+
+</beans>
